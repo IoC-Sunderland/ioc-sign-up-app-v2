@@ -76,6 +76,8 @@ WSGI_APPLICATION = 'sign_up_app.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+# Development details
+'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -86,10 +88,9 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-
+'''
 # Prod details
 
-'''
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -100,7 +101,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-'''
+
 
 
 # Password validation
