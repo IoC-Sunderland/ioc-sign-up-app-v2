@@ -79,6 +79,20 @@ WSGI_APPLICATION = 'sign_up_app.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sign_up_app_db',
+        'USER': 'postgres',
+        'PASSWORD': 'dU9dQ8bZ',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
+
+# Prod details
+
+'''
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'd6v8sj2dunt7pl',
         'USER': 'qyrotnoqclmurn',
         'PASSWORD': 'dU9cd844f7ead9cdf724990fb30526a283eebb4d528a6a5807dc2c3d2b39bf59b73dQ8bZ',
@@ -86,6 +100,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+'''
 
 
 # Password validation
