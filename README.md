@@ -1,6 +1,6 @@
 # ioc-sign-up-app-v2
 
-This repo has been created based on the sign-up app created in the working-with-flask-forms repo.
+This repo has been created based on the sign-up app created in the [working-with-flask](https://github.com/IoC-Sunderland/working-with-flask-forms) repo.
 
 The app has been ported to Django, a Postgres db connection has been configured and app deployed to Heroku.
 
